@@ -3,7 +3,10 @@ authors = ["derrick921213"]
 language = "en"
 src = "src"
 title = "CHM Documentation"
+
+[build]
 build-dir = "docs"
+create-missing = true
 
 [preprocessor]
 
